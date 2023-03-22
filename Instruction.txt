@@ -1,0 +1,120 @@
+Welcome to React Core Concepts! [Thinking in React Way]
+
+PART - ONE
+# Project Structure
+
+# Why React !! What is React ?  ? 
+=>React is a JavaScript Library For Building User Interface!
+=>Library === Reuseable Collection of Codes (Library VS Framework)
+=>Creator Jordan Walke => 2011 => FaxJs => 2013 => ReactJS
+=>For Reducing duplicate code AKA DOM.
+=>React is Awesome Beacuse of Developer Experience!
+=>Component Reuseable.
+
+#How React Works?
+=> Modular Componet Library.
+=> Replica Of DOM => Virtual DOM === Very Important (Real life Example)
+=>DOM is Fast Enough but Showing in The UI is Slow.
+=> Diffing Algo / Reconcilation 
+#Tailwind + DaisyUI Setup
+===============================================================
+
+PART - TWO 
+# Fundamentals Of React !!
+Components && JSX - JavaScript XML .
+=> What is Component? Functional Component !  Component VS React Element !.
+=>React.createElement().
+=> Return Single Element.
+=> React.Fragment.
+=>camelCase PropertyName - class => className, onclick => onClick, onsubmit => onSubmit , onchange => onChnage
+=>Nest Component || Component Inside Another Component.
+=>Making A Componet using React Element And Reuse That[online /local image use public folder].
+=> React Developer Tool
+=> Re-Factor The Component.
+=>CSS Style in JSX (inline / external).
+=> JavaScript in JSX.
+=>Can write valid js Expression code inside JSX through {} .
+=>Can access object/ array properties/[!!handle Event].
+=>Props in React ! Passing data From Component To Component!  ! Dynamic Props ![variable, array, object, Destructuring props]
+[Warning Don't Chnage Props Inside Component!!].
+=>Create Multiple Component! Dynamic Component Using Props !. Children Props!.
+=> Simple List (Using Map) to ProperList [key prop]
+=> Pass Entire Object While Mapping [alternative using Object Spreeding]
+=>Props Drilling (can only pass props down)
+=> ES6 Module && Local {Images Source Folder}
+
+
+
+#Events 
+=> Basic Events
+
+#useState Basic
+=> State is the data that change. 
+=> Counter Error Example and Fix.  
+
+#Render Info 
+=> First Time Load application/component tree AKA mounting the components.
+=> Re Render => when state / props changed using Virtual DOM. 
+
+#Props VS State !
+=>Props Changed by Parent Component !
+=>State is the own data of that component
+
+#Hook Rules
+=> must use inside componet body
+=> start with "use"
+=> can't use hook inside any conditional like if else or conditional rendering
+
+=> Array Example Setup with Hook
+=> Object Setup And Example . [Auto Batching => Render All state at once inside the a handler function]
+=> Object setup Complete[Group together the state values]
+
+#useEffect Basics
+=>perform sideEffects in functional component.
+=> Basically any work outside of component
+=>Fetching Data from API. 
+=>Component LifeCycle
+=> Direct Updating DOM,Event Listener,timers.
+[By Default its runs on each render (initial and re render)]
+
+
+UseCase: 
+=> Problem with Normal function call inside componet to do outside work
+=> fix the problem using useEffect
+=> Multiple useEffect and Explain Dependency array
+=> Fetch Data And Showing Github Users.
+
+================================================================
+
+
+
+PART- THREE
+# Project [ai-universe]
+
+Extensions:
+0.Prettier - Code formatter
+1.ES7+ React/Redux/React-Native snippets
+2.Path Autocomplete
+3.Path Intellisense
+4.React Extension Pack
+5.Reactjs code snippets
+6.Tailwind CSS IntelliSense
+7.Color Theme- Learn with sumit Professional
+
+#Extra Resourses
+React JS (1-60 covered) 
+=> https://www.youtube.com/watch?v=GcrNHMcL-WM&list=PLnHJACx3NwAep5koWkniVHw8PK7dWCO21
+
+alternative React js Tutorial
+=>https://www.youtube.com/watch?v=G8PWDBJspME&t=2815s
+
+Library VS Framework
+=>https://www.youtube.com/watch?v=8BlD8CP6v6c
+
+Expression VS Statement
+ => https://www.joshwcomeau.com/javascript/statements-vs-expressions/
+
+React.StrictMode 
+=> https://www.youtube.com/watch?v=MXSuOR2yRvQ
+=> https://react.dev/reference/react/StrictMode
+
